@@ -1,0 +1,69 @@
+{
+  "name": "gatsby-starter-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "dependencies": {
+    "@loadable/component": "^5.13.1",
+    "@rebass/preset": "^4.0.5",
+    "@theme-ui/presets": "^0.3.0",
+    "babel-plugin-styled-components": "^1.11.1",
+    "emotion-theming": "^10.0.27",
+    "gatsby": "^2.20.24",
+    "gatsby-image": "^2.3.4",
+    "gatsby-plugin-manifest": "^2.3.5",
+    "gatsby-plugin-nprogress": "^2.2.3",
+    "gatsby-plugin-offline": "^3.1.4",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-helmet": "^3.2.4",
+    "gatsby-plugin-sharp": "^2.5.6",
+    "gatsby-plugin-styled-components": "^3.3.10",
+    "gatsby-plugin-theme-ui": "^0.3.0",
+    "gatsby-source-filesystem": "^2.2.4",
+    "gatsby-transformer-sharp": "^2.4.6",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-burger-menu": "^2.7.0",
+    "react-d3-cloud": "^0.7.0",
+    "react-dom": "^16.13.1",
+    "react-hamburger-menu": "^1.2.1",
+    "react-helmet": "^5.2.1",
+    "react-image-gallery": "^1.0.8",
+    "react-landing-page": "^2.0.2",
+    "react-responsive-modal": "^5.0.2",
+    "react-scroll-parallax": "^2.3.2",
+    "react-scroll-to-element": "^0.2.0",
+    "react-scrollspy": "^3.4.2",
+    "react-slick": "^0.27.1",
+    "react-waypoint": "^9.0.2",
+    "rebass": "^3.2.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^5.1.1",
+    "theme-ui": "^0.3.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-react-hooks": "^3.0.0",
+    "prettier": "1.19.1"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
